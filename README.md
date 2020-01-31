@@ -3,6 +3,7 @@
 This PHP 7 library, strongly inspired by [Jeffrey Sambells' blog post](http://jeffreysambells.com/2012/10/25/human-readable-filesize-php),
 computes a size in bytes in a human readable form. 
 
+
 ## Installation
 This library is available through [Packagist](https://packagist.org/packages/codeinc/human-readable-file-size) 
 and can be installed using [Composer](https://getcomposer.org/): 
@@ -20,7 +21,6 @@ composer require codeinc/human-readable-file-size
 <?php
 use CodeInc\HumanReadableFileSize\HumanReadableFileSize;
 
-# Simple usage
 echo HumanReadableFileSize::getHumanSize(filesize('a-file.pdf'));
 // outputs 2.88MB 
 
@@ -44,9 +44,6 @@ $readableSize->setByteSymbol('o');
 echo $readableSize->compute(filesize('a-file.pdf'), 1);
 // outputs 2,9 Mo 
 ```
-
-
-
 
 ## License
 This library is published under the MIT license (see the [LICENSE](LICENSE) file). 
