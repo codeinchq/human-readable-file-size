@@ -1,0 +1,30 @@
+{
+  "name": "codeinc/human-readable-file-size",
+  "version": "1.0.0",
+  "description": "Human readable file size",
+  "homepage": "https://github.com/codeinchq/human-readable-file-size",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "ext-intl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodeInc\\HumanReadableFileSize\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Joan Fabrégat",
+      "email": "joan@codeinc.co",
+      "homepage": "https://www.codeinc.co",
+      "role": "developer"
+    }
+  ],
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    }
+  }
+}
