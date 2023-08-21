@@ -27,7 +27,7 @@ echo HumanReadableFileSize::getHumanSize(filesize('a-file.pdf'));
 echo HumanReadableFileSize::getHumanSize(filesize('a-file.pdf'), 1);
 // outputs 2.9MB 
 
-echo HumanReadableFileSize::getHumanSize(filesize('a-file.pdf'));
+echo HumanReadableFileSize::getHumanSize(filesize('a-file.pdf'), 0);
 // outputs 3MB
 ```
 
